@@ -1,0 +1,14 @@
+CUDA_VISIBLE_DEVICES=0 CUDA_HOME=$CONDA_PREFIX PYTHONPATH=$(pwd) python cosmos_predict1/autoregressive/inference/video2world.py \
+    --checkpoint_dir checkpoints \
+    --input_type text_and_video \
+    --batch_input_path assets/autoregressive/autonomous/video2world.jsonl \
+    --ar_model_dir Cosmos-Predict1-5B-Video2World \
+    --top_p 0.7 \
+    --temperature 1.05 \
+    --offload_guardrail_models \
+    --offload_diffusion_decoder \
+    --offload_ar_model \
+    --offload_text_encoder_model \
+    --disable_guardrail \
+    --tts_mode orm-2 \
+    --video_save_folder wfm_tts/cosmos_5b_orm-2

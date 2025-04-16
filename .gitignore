@@ -1,0 +1,20 @@
+# Ignore Python artifacts
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore OS-specific files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore IDE/project-specific files
+.vscode/
+*.swp
+
+checkpoints/
+apex
