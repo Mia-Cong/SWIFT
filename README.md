@@ -90,7 +90,7 @@ To reproduce SWIFT's test-time scaling results:
 ### 3. Run SWIFT Scripts
 - Run any of the provided test-time scaling scripts located in `swift_scripts/`, for example:
 ```bash
-./swift_scripts/prob_beam.sh
+./swift_scripts/cosmos4b_prob_beam.sh
 ```
 
 ## ✅ Citation
