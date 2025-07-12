@@ -1,6 +1,8 @@
 # SWIFT: Test-Time Scaling for World Foundation Models 🚀
 
-Official repository for the paper [**Can Test-Time Scaling Improve World Foundation Models?**](https://arxiv.org/abs/2503.24320)
+
+Refer to the official repository in the updated [**repo**](https://github.com/VITA-Group/WFM-TTS).
+<!-- Official repository for the paper [**Can Test-Time Scaling Improve World Foundation Models?**](https://arxiv.org/abs/2503.24320)
 
 [[🔖 Project Page](https://scalingwfm.github.io/)] [[📄 Paper](https://arxiv.org/abs/2503.24320)]
 
@@ -111,4 +113,4 @@ If you find this work useful, please cite:
 - [VBench](https://github.com/VBench/VBench) - Benchmark for video generation models
 
 
-For more updates and demos, visit our website: [https://scalingwfm.github.io](https://scalingwfm.github.io)
+For more updates and demos, visit our website: [https://scalingwfm.github.io](https://scalingwfm.github.io) -->
